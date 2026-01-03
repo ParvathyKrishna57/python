@@ -1,0 +1,7 @@
+a = int(input("Enter the first coefficient (a): "))
+b = int(input("Enter the second coefficient (b): "))
+c = int(input("Enter the third coefficient (c): "))
+d=(b**2) - (4*a*c)
+x1= (-b-(d**0.5))/(2*a)
+x2= (-b-(d**0.5))/(2*a)
+print("The roots are",x1,x2)
